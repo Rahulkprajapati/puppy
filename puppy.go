@@ -22,10 +22,10 @@ func BigBarks() string {
 	return dog.WhenGrownUps(Barks())
 }
 
-func Form12() string {
+func Form12() {
 	fmt.Println("This is a form from version v1.2.0")
 }
 
-func Form13() string {
+func Form13() {
 	fmt.Println("This is form version v1.3.0")
 }
