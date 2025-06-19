@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/Rahulkprajapati/dog"
 )
 
@@ -18,4 +20,8 @@ func BigBark() string {
 
 func BigBarks() string {
 	return dog.WhenGrownUps(Barks())
+}
+
+func Form1() {
+	fmt.Println("This is a form from version v1.1.0")
 }
